@@ -195,8 +195,8 @@ $( document ).ready(function() {
   }
   
   $('#calc-class').change(function() {
-    sumParams.class = $(this).val();
-    showSum();
+    sumParams.class = $(this).val()
+    showSum()
   });
   
    //Кастомные чекбоксы 
