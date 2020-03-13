@@ -185,7 +185,7 @@ $( document ).ready(function() {
   function showSum() {
     if (pay === '1') {
       $('.price-number').text((parseInt(getSum()) * 3).toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
-      $('#price-text').text('год');
+      $('#price-text').text('учебный год');
       $('#price-subtext').text('Стоимость обучения в этом учебном году при оплате в марте')//Это самый выгодный вариант покупки');
     } else {
       $('.price-number').text(getSum().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
